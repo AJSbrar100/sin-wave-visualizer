@@ -18,7 +18,7 @@ int main() {
 	while (!WindowShouldClose() && i < WIDTH) {
 
 		x = i;
-		y = (HEIGHT / 2) + sinf(i * (PI / 180)) * 100;
+		y = (HEIGHT / 2) + sinf(i * (PI / 180)) * 100;//Change the sinf to tanf or cosf accordingly 
 
 		BeginDrawing();
 
